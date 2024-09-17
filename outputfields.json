@@ -1,0 +1,65 @@
+[
+    {
+      "key": "Tags",
+      "name": "Tags",
+      "hintText": "Tags",
+      "helpText": "Tags",
+      "isExtendedSchema": false,
+      "required": false,
+      "type": "array",
+      "controlType": "array",
+      "as": "object",
+      "properties": [
+        {
+          "key": "id",
+          "name": "Id",
+          "hintText": "Id",
+          "helpText": "Id",
+          "isExtendedSchema": false,
+          "required": false,
+          "type": "string",
+          "controlType": "text"
+        },
+        {
+          "key": "name",
+          "name": "Name",
+          "hintText": "Name",
+          "helpText": "Name",
+          "isExtendedSchema": false,
+          "required": false,
+          "type": "string",
+          "controlType": "text"
+        },
+        {
+          "key": "workspaceId",
+          "name": "Workspace Id",
+          "hintText": "Workspace Id",
+          "helpText": "Workspace Id",
+          "isExtendedSchema": false,
+          "required": false,
+          "type": "string",
+          "controlType": "text"
+        },
+        {
+          "key": "archived",
+          "name": "Archived",
+          "hintText": "Archived",
+          "helpText": "Archived",
+          "isExtendedSchema": false,
+          "required": false,
+          "type": "boolean",
+          "controlType": "select",
+          "pickList": [
+            [
+              "Yes",
+              true
+            ],
+            [
+              "No",
+              false
+            ]
+          ]
+        }
+      ]
+    }
+  ]
